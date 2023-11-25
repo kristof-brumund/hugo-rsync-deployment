@@ -12,9 +12,9 @@ Assuming we want the user to be named `github` and the host `static-website.com`
 1. We need to place the private key in a secret named `VPS_DEPLOY_KEY` (Repository -> Settings -> Secrets).
 
 ## Example
-The fastest way to start a project, is to simply clone [the boilerplate](https://github.com/ronvanderheijden/hugo-rsync-deployment-boilerplate).
 
-But we can also place our Hugo website in the `src/` directory and create a file in `.github/workflows/deploy.yml` with the content:
+Create a file in `.github/workflows/deploy.yml` with the content:
+
 ```yaml
 name: 'Generate and deploy'
 
