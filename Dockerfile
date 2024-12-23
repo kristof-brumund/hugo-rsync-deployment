@@ -1,4 +1,4 @@
-FROM alpine:3.19.1
+FROM alpine:3.21.0
 
 LABEL "name"="Hugo rsync deployment"
 LABEL "maintainer"="Ron van der Heijden <r.heijden@live.nl>"
